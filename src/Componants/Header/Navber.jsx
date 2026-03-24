@@ -5,9 +5,9 @@ import { FaGithub } from "react-icons/fa";
 
 const Navber = () => {
     const links=<>
-        <NavLink to='/'><li className='mr-4 text-base'>Home</li></NavLink>
-        <NavLink to='/apps'><li className='mr-4 text-base'>Apps</li></NavLink>
-        <NavLink><li className='mr-4 text-base'>Installation</li></NavLink>
+        <NavLink to='/'><li className='mr-4 text-base font-semibold'>Home</li></NavLink>
+        <NavLink to='/apps'><li className='mr-4 text-base font-semibold'>Apps</li></NavLink>
+        <NavLink><li className='mr-4 text-base font-semibold'>Installation</li></NavLink>
     </>
     return (
        <div className="navbar bg-base-100 shadow-sm">
