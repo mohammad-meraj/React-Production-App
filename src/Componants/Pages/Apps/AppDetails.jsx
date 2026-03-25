@@ -6,8 +6,17 @@ import lIcon from './../../../assets/icon-review.png';
 import { addWantedData } from '../../LocalStorage/LocalStorage';
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts";
 
 const MySwal = withReactContent(Swal)
+
 const AppDetails = () => {
     const [installed,setInstalled] =useState(false)
     const handleInstallation=(id)=>{
@@ -24,11 +33,12 @@ Swal.fire({
 
     const Details=useLoaderData();
     const {image,title,companyName,id,description,reviews,ratingAvg,downloads,ratings,size}=Details;
+    
     return (
         <div className='bg-[#e9e7e7]'>
             <div className='flex flex-col md:flex-row px-8 py-10'>
 
-              <div className='w-40 lg:flex-1 p-5 bg-white rounded-4xl flex justify-center items-center'><img className=' rounded' src={image} alt="" /></div>
+              <div className='flex-1 h-70 lg:mt-10 p-5 bg-white rounded-4xl flex justify-center items-center'><img className=' w-40 lg:w-50 rounded' src={image} alt="" /></div>
               <div className='flex-3 p-5'>
 
                    <div className='pb-6'>
@@ -60,6 +70,24 @@ Swal.fire({
                 </div>
 
             </div>
+            <hr className='max-w-11/12 mx-auto border text-gray-600 my-5' />
+            <ResponsiveContainer width="100%" height={300}>
+                  <BarChart
+                    data={ratings}
+                    layout="vertical"
+                    margin={{ top: 10, right: 20, left: 20, bottom: 10 }}
+                  >
+                    <XAxis type="number" />
+                    <YAxis dataKey="name" type="category" />
+                    <Tooltip />
+                    <Bar dataKey="count" fill="#f97316" />
+                  </BarChart>
+                </ResponsiveContainer>
+             <hr className='max-w-11/12 mx-auto border text-gray-600 my-5' />
+             <div className='max-w-11/12 mx-auto space-y-3 pb-10 py-5'>
+                <h2 className='text-2xl font-bold'>Description</h2>
+                <p className='text-base text-gray-500'>{description}</p>
+             </div>
         </div>
     );
 };

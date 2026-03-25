@@ -1,4 +1,6 @@
 import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
 import { removeWantedData } from '../../LocalStorage/LocalStorage';
@@ -6,6 +8,7 @@ import { removeWantedData } from '../../LocalStorage/LocalStorage';
 const DashBoard = ({data,handleUninstall}) => {
       
       const handleUninstallation = () => {
+         toast("App Uninstalled...!!!");
         removeWantedData(id);   
         handleUninstall(id);        
     };
@@ -26,6 +29,7 @@ const DashBoard = ({data,handleUninstall}) => {
            </div>
            <div className='w-full sm:w-auto flex justify-center sm:justify-end shrink-0 sm:pr-4'>
             <button onClick={handleUninstallation} className='btn bg-[#0cca8e] text-white w-full sm:w-auto px-6'>Uninstall</button>
+
            </div>
         </div>
     );

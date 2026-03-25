@@ -7,8 +7,8 @@ const TrandingApp = ({appData}) => {
     return (
        <Link to={`/appDetails/${appData.id}`}>
         <div className='bg-gray-200 p-4 rounded-lg space-y-2'>
-            <div className='pb-8'>
-                <img className='w-fit rounded' src={appData.image} alt="" />
+            <div className='pb-8 bg-white rounded-xl'>
+                <img className='w-fit p-6 rounded' src={appData.image} alt="" />
             </div>
             <h2 className='text-base font-semibold'>{appData.title}</h2>
             <div className='flex justify-between'>
