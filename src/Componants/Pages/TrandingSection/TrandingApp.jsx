@@ -6,7 +6,7 @@ import { Link } from 'react-router';
 const TrandingApp = ({appData}) => {
     return (
        <Link to={`/appDetails/${appData.id}`}>
-        <div className='bg-gray-300 p-4 rounded-lg space-y-2'>
+        <div className='bg-gray-200 p-4 rounded-lg space-y-2'>
             <div>
                 <img className='size-full object-cover rounded' src={appData.image} alt="" />
             </div>

@@ -1,8 +1,15 @@
 import React from 'react';
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
+import { removeWantedData } from '../../LocalStorage/LocalStorage';
 
-const DashBoard = ({data}) => {
+const DashBoard = ({data,handleUninstall}) => {
+      
+      const handleUninstallation = () => {
+        removeWantedData(id);   
+        handleUninstall(id);        
+    };
+
     const {image,title,companyName,id,description,reviews,ratingAvg,downloads,ratings,size}=data;
     return (
         <div className='flex flex-col md:flex-row justify-center gap-7  md:justify-between items-center bg-white rounded-xl p-5 md:p-2'>
@@ -18,7 +25,7 @@ const DashBoard = ({data}) => {
             </div>
            </div>
            <div className='pr-4'>
-            <button className='btn bg-[#0cca8e] text-white'>Uninstall</button>
+            <button onClick={handleUninstallation} className='btn bg-[#0cca8e] text-white'>Uninstall</button>
            </div>
         </div>
     );

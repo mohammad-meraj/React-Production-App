@@ -18,3 +18,10 @@ export const addWantedData=(id)=>{
         saveData("App Data",data);
     }
 };
+
+
+export const removeWantedData = (id) => {
+    const data = getWantedData();
+    const updated = data.filter(item => item !== id);
+    saveData("App Data", updated);
+};

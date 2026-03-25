@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router';
 import { getWantedData } from '../../LocalStorage/LocalStorage';
 import DashBoard from './DashBoard';
@@ -7,6 +7,11 @@ const Installation = () => {
     const installApp = useLoaderData();
     const wantedApp= getWantedData();
     const InstallList= installApp.filter(App=> wantedApp.includes(App.id))
+     const [installationList, setInstallationList] = useState(InstallList);
+    const handleUninstall = (id) => {
+        setInstallationList(prev => prev.filter(app => app.id !== id));
+                };
+
     return (
         <div className='bg-[#e9e7e7] pb-20'>
             <div className='text-center space-y-5 pt-15 pb-6'>
@@ -18,7 +23,7 @@ const Installation = () => {
             </div>
             <div className='flex flex-col gap-4 max-w-11/12 mx-auto'>
                 {
-                InstallList.map(data=> <DashBoard key={data.id} data={data}></DashBoard>)
+                installationList.map(data=> <DashBoard key={data.id} handleUninstall={handleUninstall} data={data}></DashBoard>)
             }
             </div>
         </div>

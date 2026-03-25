@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useLoaderData } from 'react-router';
 import dIcon from './../../../assets/icon-downloads.png';
 import rIcon from './../../../assets/icon-ratings.png';
 import lIcon from './../../../assets/icon-review.png';
 import { addWantedData } from '../../LocalStorage/LocalStorage';
 const AppDetails = () => {
-
-const handleInstallation=(id)=>{
+    const [installed,setInstalled] =useState(false)
+    const handleInstallation=(id)=>{
      addWantedData(id);
+     setInstalled(true);
 }
 
 
@@ -49,7 +50,7 @@ const handleInstallation=(id)=>{
                         
                     </div>
                              <div>
-                                  <Link><button onClick={()=> handleInstallation(id)} className='btn bg-[#0cca8e] text-white'>Install Now ({size} MB)</button></Link>
+                                  <Link><button onClick={()=> handleInstallation(id)} disabled={installed} className={`btn text-white ${installed ? 'bg-gray-400': 'bg-[#0cca8e]'}`}>{installed ? `Installed (${size} MB)` : `Install Now (${size} MB)`}</button></Link>
                              </div>
                 </div>
 
