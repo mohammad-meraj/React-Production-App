@@ -8,7 +8,7 @@ const Banner = () => {
         </div>
         <div className='text-center bg-gradient-to-r from-[#6633dd] to-[#9F62F2] py-10 space-y-5'>
             <h1 className='text-4xl text-white font-bold'>Trusted by Millions, Built for You</h1>
-            <div className='flex flex-wrap justify-center font-bold text-white items-center gap-5'>
+            <div className='flex flex-wrap justify-center font-bold text-white items-center gap-7'>
                 {/* card */}
                 <div className='p-5 space-y-4'>
                     <h4 className='text-sm'>Total Downloads</h4>

@@ -2,8 +2,11 @@ import React from 'react';
 import GooglePlay from './../../assets/fi_16076057.png';
 import AppStore from './../../assets/fi_5977575.png';
 import Banner from './Banner';
+import TrandingSection from '../Pages/TrandingSection/TrandingSection';
+import { useLoaderData } from 'react-router';
 
 const Home = () => {
+    const fetchData=useLoaderData();
     return (
         <div>
             <div className='py-13 px-5 sm:px-36'>
@@ -19,6 +22,7 @@ const Home = () => {
                 
             </div>
             <Banner></Banner>
+            <TrandingSection fetchData={fetchData}></TrandingSection>
         </div>
     );
 };

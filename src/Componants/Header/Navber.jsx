@@ -7,7 +7,7 @@ const Navber = () => {
     const links=<>
         <NavLink to='/'><li className='mr-4 text-base font-semibold'>Home</li></NavLink>
         <NavLink to='/apps'><li className='mr-4 text-base font-semibold'>Apps</li></NavLink>
-        <NavLink><li className='mr-4 text-base font-semibold'>Installation</li></NavLink>
+        <NavLink to='/installation'><li className='mr-4 text-base font-semibold'>Installation</li></NavLink>
     </>
     return (
        <div className="navbar bg-base-100 shadow-sm">
@@ -30,7 +30,7 @@ const Navber = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a href='https://github.com/Apollo-Level2-Web-Dev/Mission-Restart-A3' className="btn text-base md:text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"><FaGithub />Contribute</a>
+    <a href='https://github.com/mohammad-meraj/React-Production-App' className="btn text-base md:text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"><FaGithub />Contribute</a>
   </div>
 </div>
     );

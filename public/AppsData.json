@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://www.google.com/s2/favicons?domain=spotify.com&sz=128",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 1,
+    "description": "Listen to music, podcasts, and audiobooks. Discover new artists and playlists tailored just for you with personalized recommendations.",
+    "size": 98,
+    "reviews": 24500,
+    "ratingAvg": 4.7,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 480 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 5800 },
+      { "name": "5 star", "count": 16700 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/s2/favicons?domain=notion.so&sz=128",
+    "title": "Notion",
+    "companyName": "Notion Labs Inc.",
+    "id": 2,
+    "description": "All-in-one workspace for notes, tasks, wikis, and databases. Collaborate with your team and organize everything in one place.",
+    "size": 54,
+    "reviews": 18200,
+    "ratingAvg": 4.6,
+    "downloads": "870K",
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 4600 },
+      { "name": "5 star", "count": 12020 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/s2/favicons?domain=figma.com&sz=128",
+    "title": "Figma",
+    "companyName": "Figma Inc.",
+    "id": 3,
+    "description": "Collaborative interface design tool. Create beautiful UI designs, prototypes, and design systems with your team in real time.",
+    "size": 76,
+    "reviews": 15600,
+    "ratingAvg": 4.8,
+    "downloads": "640K",
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 720 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 10680 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/s2/favicons?domain=duolingo.com&sz=128",
+    "title": "Duolingo",
+    "companyName": "Duolingo Inc.",
+    "id": 4,
+    "description": "Learn a new language for free with fun, bite-sized lessons. Practice speaking, reading, listening, and writing skills every day.",
+    "size": 62,
+    "reviews": 31000,
+    "ratingAvg": 4.5,
+    "downloads": "2.1M",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 750 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 7800 },
+      { "name": "5 star", "count": 19750 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/s2/favicons?domain=slack.com&sz=128",
+    "title": "Slack",
+    "companyName": "Salesforce Inc.",
+    "id": 5,
+    "description": "Business messaging platform that connects teams. Share files, integrate apps, and communicate faster than email.",
+    "size": 88,
+    "reviews": 22100,
+    "ratingAvg": 4.4,
+    "downloads": "950K",
+    "ratings": [
+      { "name": "1 star", "count": 430 },
+      { "name": "2 star", "count": 610 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 6200 },
+      { "name": "5 star", "count": 12360 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/s2/favicons?domain=canva.com&sz=128",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "id": 6,
+    "description": "Design anything with thousands of templates. Create social media graphics, presentations, posters, and more with drag-and-drop ease.",
+    "size": 115,
+    "reviews": 27800,
+    "ratingAvg": 4.7,
+    "downloads": "1.4M",
+    "ratings": [
+      { "name": "1 star", "count": 290 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 6900 },
+      { "name": "5 star", "count": 18560 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/s2/favicons?domain=todoist.com&sz=128",
+    "title": "Todoist",
+    "companyName": "Doist Inc.",
+    "id": 7,
+    "description": "The world's #1 task manager and to-do list app. Organize your work and life with projects, priorities, and reminders.",
+    "size": 43,
+    "reviews": 12400,
+    "ratingAvg": 4.6,
+    "downloads": "560K",
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 850 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 7860 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/s2/favicons?domain=zoom.us&sz=128",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 8,
+    "description": "Video conferencing and online meetings made easy. Host webinars, virtual events, and collaborate with anyone, anywhere.",
+    "size": 135,
+    "reviews": 34500,
+    "ratingAvg": 4.3,
+    "downloads": "1.8M",
+    "ratings": [
+      { "name": "1 star", "count": 820 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 3800 },
+      { "name": "4 star", "count": 9200 },
+      { "name": "5 star", "count": 19580 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/s2/favicons?domain=adobe.com&sz=128",
+    "title": "Adobe Lightroom",
+    "companyName": "Adobe Inc.",
+    "id": 9,
+    "description": "Professional photo editing and organization. Edit RAW files, apply presets, and sync your photos across all your devices seamlessly.",
+    "size": 202,
+    "reviews": 19800,
+    "ratingAvg": 4.5,
+    "downloads": "720K",
+    "ratings": [
+      { "name": "1 star", "count": 360 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 5100 },
+      { "name": "5 star", "count": 12020 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/s2/favicons?domain=grammarly.com&sz=128",
+    "title": "Grammarly",
+    "companyName": "Grammarly Inc.",
+    "id": 10,
+    "description": "AI-powered writing assistant that helps you communicate clearly. Fix grammar, spelling, punctuation, and improve your writing style.",
+    "size": 58,
+    "reviews": 28600,
+    "ratingAvg": 4.6,
+    "downloads": "1.1M",
+    "ratings": [
+      { "name": "1 star", "count": 380 },
+      { "name": "2 star", "count": 540 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 18380 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/s2/favicons?domain=trello.com&sz=128",
+    "title": "Trello",
+    "companyName": "Atlassian Corporation",
+    "id": 11,
+    "description": "Visual project management with boards, lists, and cards. Collaborate with your team and track work progress in a flexible way.",
+    "size": 47,
+    "reviews": 16300,
+    "ratingAvg": 4.4,
+    "downloads": "680K",
+    "ratings": [
+      { "name": "1 star", "count": 290 },
+      { "name": "2 star", "count": 470 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 8840 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/s2/favicons?domain=evernote.com&sz=128",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "id": 12,
+    "description": "Capture ideas and organize your notes. Save web pages, images, PDFs, and handwritten notes all in one searchable workspace.",
+    "size": 72,
+    "reviews": 20100,
+    "ratingAvg": 4.2,
+    "downloads": "790K",
+    "ratings": [
+      { "name": "1 star", "count": 610 },
+      { "name": "2 star", "count": 850 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 6400 },
+      { "name": "5 star", "count": 9040 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/s2/favicons?domain=discord.com&sz=128",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 13,
+    "description": "Chat, voice, and video for communities and friends. Create servers, join communities, and stay connected with the people you care about.",
+    "size": 91,
+    "reviews": 38200,
+    "ratingAvg": 4.7,
+    "downloads": "2.4M",
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 580 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 9500 },
+      { "name": "5 star", "count": 25600 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/s2/favicons?domain=1password.com&sz=128",
+    "title": "1Password",
+    "companyName": "AgileBits Inc.",
+    "id": 14,
+    "description": "The world's most-loved password manager. Store passwords, credit cards, and secure notes and access them from any device.",
+    "size": 66,
+    "reviews": 14700,
+    "ratingAvg": 4.8,
+    "downloads": "520K",
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 560 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 10640 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/s2/favicons?domain=whatsapp.com&sz=128",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms Inc.",
+    "id": 15,
+    "description": "Fast, simple, and secure messaging for free. Send texts, voice notes, photos, and make calls to anyone around the world.",
+    "size": 55,
+    "reviews": 92000,
+    "ratingAvg": 4.5,
+    "downloads": "5.1M",
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 6500 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 60500 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc.",
+    "id": 16,
+    "description": "Capture and share the world's moments. Follow friends, explore trending reels, and connect with creators you love.",
+    "size": 122,
+    "reviews": 130000,
+    "ratingAvg": 4.4,
+    "downloads": "8.3M",
+    "ratings": [
+      { "name": "1 star", "count": 2800 },
+      { "name": "2 star", "count": 3600 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 34000 },
+      { "name": "5 star", "count": 77600 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 17,
+    "description": "Watch, upload, and share videos with the world. Stream music, follow creators, catch the latest news, and go live anytime.",
+    "size": 145,
+    "reviews": 210000,
+    "ratingAvg": 4.6,
+    "downloads": "12.5M",
+    "ratings": [
+      { "name": "1 star", "count": 3200 },
+      { "name": "2 star", "count": 4800 },
+      { "name": "3 star", "count": 16000 },
+      { "name": "4 star", "count": 56000 },
+      { "name": "5 star", "count": 130000 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/s2/favicons?domain=gmail.com&sz=128",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 18,
+    "description": "Secure, smart, and easy-to-use email by Google. Enjoy intelligent reply suggestions, spam filtering, and seamless Google integration.",
+    "size": 93,
+    "reviews": 145000,
+    "ratingAvg": 4.5,
+    "downloads": "9.8M",
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 3800 },
+      { "name": "3 star", "count": 13000 },
+      { "name": "4 star", "count": 38000 },
+      { "name": "5 star", "count": 87700 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 19,
+    "description": "Chat, meet, call, and collaborate all in one place. Connect your team with video meetings, file sharing, and Office 365 integration.",
+    "size": 178,
+    "reviews": 67000,
+    "ratingAvg": 4.2,
+    "downloads": "4.4M",
+    "ratings": [
+      { "name": "1 star", "count": 2200 },
+      { "name": "2 star", "count": 3100 },
+      { "name": "3 star", "count": 9500 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 34200 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/s2/favicons?domain=dropbox.com&sz=128",
+    "title": "Dropbox",
+    "companyName": "Dropbox Inc.",
+    "id": 20,
+    "description": "Cloud storage and file sharing made simple. Sync your files across all devices and collaborate with your team securely from anywhere.",
+    "size": 84,
+    "reviews": 21000,
+    "ratingAvg": 4.3,
+    "downloads": "1.0M",
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 620 },
+      { "name": "3 star", "count": 2300 },
+      { "name": "4 star", "count": 6100 },
+      { "name": "5 star", "count": 11530 }
+    ]
+  }
+]
