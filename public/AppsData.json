@@ -1,362 +1,290 @@
 [
   {
-    "image": "https://www.google.com/s2/favicons?domain=spotify.com&sz=128",
+    "image": "https://cdn-icons-png.flaticon.com/512/733/733585.png",
+    "title": "WhatsApp",
+    "companyName": "Meta",
+    "id": 1,
+    "description": "WhatsApp is a globally popular messaging application that allows users to send text messages, make voice and video calls, and share photos, videos, and documents instantly. With end-to-end encryption, it ensures secure communication while offering group chats and status updates.",
+    "size": 35,
+    "reviews": "50M",
+    "ratingAvg": 4.3,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 2.0 },
+      { "name": "2 star", "count": 1.5 },
+      { "name": "3 star", "count": 4.0 },
+      { "name": "4 star", "count": 12.0 },
+      { "name": "5 star", "count": 30.5 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
+    "title": "Instagram",
+    "companyName": "Meta",
+    "id": 2,
+    "description": "Instagram is a leading social media platform where users can share photos, reels, and stories. It offers powerful editing tools, filters, and a discovery feed, making it easy to connect with friends, influencers, and global communities.",
+    "size": 45,
+    "reviews": "30M",
+    "ratingAvg": 4.2,
+    "downloads": "2B",
+    "ratings": [
+      { "name": "1 star", "count": 1.5 },
+      { "name": "2 star", "count": 1.2 },
+      { "name": "3 star", "count": 3.0 },
+      { "name": "4 star", "count": 8.0 },
+      { "name": "5 star", "count": 16.3 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/512/tiktok.png",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 3,
+    "description": "TikTok is a short-form video platform that allows users to create, edit, and share engaging videos with music, filters, and effects. It uses smart algorithms to deliver personalized content and trending challenges.",
+    "size": 60,
+    "reviews": "25M",
+    "ratingAvg": 4.4,
+    "downloads": "3B",
+    "ratings": [
+      { "name": "1 star", "count": 1.2 },
+      { "name": "2 star", "count": 0.9 },
+      { "name": "3 star", "count": 2.5 },
+      { "name": "4 star", "count": 7.0 },
+      { "name": "5 star", "count": 13.3 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
+    "title": "YouTube",
+    "companyName": "Google",
+    "id": 4,
+    "description": "YouTube is the world's largest video-sharing platform where users can watch, upload, and share videos across multiple categories including education, entertainment, and live streaming.",
+    "size": 50,
+    "reviews": "40M",
+    "ratingAvg": 4.3,
+    "downloads": "10B",
+    "ratings": [
+      { "name": "1 star", "count": 2.0 },
+      { "name": "2 star", "count": 1.5 },
+      { "name": "3 star", "count": 3.5 },
+      { "name": "4 star", "count": 9.0 },
+      { "name": "5 star", "count": 24.0 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/733/733547.png",
+    "title": "Facebook",
+    "companyName": "Meta",
+    "id": 5,
+    "description": "Facebook is a social networking platform that connects people worldwide, allowing them to share posts, photos, and videos, join communities, and communicate through messaging and groups.",
+    "size": 55,
+    "reviews": "35M",
+    "ratingAvg": 4.1,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 2.5 },
+      { "name": "2 star", "count": 2.0 },
+      { "name": "3 star", "count": 5.0 },
+      { "name": "4 star", "count": 10.0 },
+      { "name": "5 star", "count": 15.5 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/174/174872.png",
     "title": "Spotify",
     "companyName": "Spotify AB",
-    "id": 1,
-    "description": "Listen to music, podcasts, and audiobooks. Discover new artists and playlists tailored just for you with personalized recommendations.",
-    "size": 98,
-    "reviews": 24500,
-    "ratingAvg": 4.7,
-    "downloads": "1.2M",
-    "ratings": [
-      { "name": "1 star", "count": 320 },
-      { "name": "2 star", "count": 480 },
-      { "name": "3 star", "count": 1200 },
-      { "name": "4 star", "count": 5800 },
-      { "name": "5 star", "count": 16700 }
-    ]
-  },
-  {
-    "image": "https://www.google.com/s2/favicons?domain=notion.so&sz=128",
-    "title": "Notion",
-    "companyName": "Notion Labs Inc.",
-    "id": 2,
-    "description": "All-in-one workspace for notes, tasks, wikis, and databases. Collaborate with your team and organize everything in one place.",
-    "size": 54,
-    "reviews": 18200,
-    "ratingAvg": 4.6,
-    "downloads": "870K",
-    "ratings": [
-      { "name": "1 star", "count": 210 },
-      { "name": "2 star", "count": 390 },
-      { "name": "3 star", "count": 980 },
-      { "name": "4 star", "count": 4600 },
-      { "name": "5 star", "count": 12020 }
-    ]
-  },
-  {
-    "image": "https://www.google.com/s2/favicons?domain=figma.com&sz=128",
-    "title": "Figma",
-    "companyName": "Figma Inc.",
-    "id": 3,
-    "description": "Collaborative interface design tool. Create beautiful UI designs, prototypes, and design systems with your team in real time.",
-    "size": 76,
-    "reviews": 15600,
-    "ratingAvg": 4.8,
-    "downloads": "640K",
-    "ratings": [
-      { "name": "1 star", "count": 140 },
-      { "name": "2 star", "count": 260 },
-      { "name": "3 star", "count": 720 },
-      { "name": "4 star", "count": 3800 },
-      { "name": "5 star", "count": 10680 }
-    ]
-  },
-  {
-    "image": "https://www.google.com/s2/favicons?domain=duolingo.com&sz=128",
-    "title": "Duolingo",
-    "companyName": "Duolingo Inc.",
-    "id": 4,
-    "description": "Learn a new language for free with fun, bite-sized lessons. Practice speaking, reading, listening, and writing skills every day.",
-    "size": 62,
-    "reviews": 31000,
-    "ratingAvg": 4.5,
-    "downloads": "2.1M",
-    "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 750 },
-      { "name": "3 star", "count": 2200 },
-      { "name": "4 star", "count": 7800 },
-      { "name": "5 star", "count": 19750 }
-    ]
-  },
-  {
-    "image": "https://www.google.com/s2/favicons?domain=slack.com&sz=128",
-    "title": "Slack",
-    "companyName": "Salesforce Inc.",
-    "id": 5,
-    "description": "Business messaging platform that connects teams. Share files, integrate apps, and communicate faster than email.",
-    "size": 88,
-    "reviews": 22100,
-    "ratingAvg": 4.4,
-    "downloads": "950K",
-    "ratings": [
-      { "name": "1 star", "count": 430 },
-      { "name": "2 star", "count": 610 },
-      { "name": "3 star", "count": 2500 },
-      { "name": "4 star", "count": 6200 },
-      { "name": "5 star", "count": 12360 }
-    ]
-  },
-  {
-    "image": "https://www.google.com/s2/favicons?domain=canva.com&sz=128",
-    "title": "Canva",
-    "companyName": "Canva Pty Ltd",
     "id": 6,
-    "description": "Design anything with thousands of templates. Create social media graphics, presentations, posters, and more with drag-and-drop ease.",
-    "size": 115,
-    "reviews": 27800,
-    "ratingAvg": 4.7,
-    "downloads": "1.4M",
-    "ratings": [
-      { "name": "1 star", "count": 290 },
-      { "name": "2 star", "count": 450 },
-      { "name": "3 star", "count": 1600 },
-      { "name": "4 star", "count": 6900 },
-      { "name": "5 star", "count": 18560 }
-    ]
-  },
-  {
-    "image": "https://www.google.com/s2/favicons?domain=todoist.com&sz=128",
-    "title": "Todoist",
-    "companyName": "Doist Inc.",
-    "id": 7,
-    "description": "The world's #1 task manager and to-do list app. Organize your work and life with projects, priorities, and reminders.",
-    "size": 43,
-    "reviews": 12400,
-    "ratingAvg": 4.6,
-    "downloads": "560K",
-    "ratings": [
-      { "name": "1 star", "count": 180 },
-      { "name": "2 star", "count": 310 },
-      { "name": "3 star", "count": 850 },
-      { "name": "4 star", "count": 3200 },
-      { "name": "5 star", "count": 7860 }
-    ]
-  },
-  {
-    "image": "https://www.google.com/s2/favicons?domain=zoom.us&sz=128",
-    "title": "Zoom",
-    "companyName": "Zoom Video Communications",
-    "id": 8,
-    "description": "Video conferencing and online meetings made easy. Host webinars, virtual events, and collaborate with anyone, anywhere.",
-    "size": 135,
-    "reviews": 34500,
-    "ratingAvg": 4.3,
-    "downloads": "1.8M",
-    "ratings": [
-      { "name": "1 star", "count": 820 },
-      { "name": "2 star", "count": 1100 },
-      { "name": "3 star", "count": 3800 },
-      { "name": "4 star", "count": 9200 },
-      { "name": "5 star", "count": 19580 }
-    ]
-  },
-  {
-    "image": "https://www.google.com/s2/favicons?domain=adobe.com&sz=128",
-    "title": "Adobe Lightroom",
-    "companyName": "Adobe Inc.",
-    "id": 9,
-    "description": "Professional photo editing and organization. Edit RAW files, apply presets, and sync your photos across all your devices seamlessly.",
-    "size": 202,
-    "reviews": 19800,
+    "description": "Spotify is a digital music streaming service that provides access to millions of songs, albums, and podcasts. Users can create playlists, discover new music, and enjoy personalized recommendations.",
+    "size": 40,
+    "reviews": "20M",
     "ratingAvg": 4.5,
-    "downloads": "720K",
+    "downloads": "1B",
     "ratings": [
-      { "name": "1 star", "count": 360 },
-      { "name": "2 star", "count": 520 },
-      { "name": "3 star", "count": 1800 },
-      { "name": "4 star", "count": 5100 },
-      { "name": "5 star", "count": 12020 }
+      { "name": "1 star", "count": 0.8 },
+      { "name": "2 star", "count": 0.6 },
+      { "name": "3 star", "count": 2.0 },
+      { "name": "4 star", "count": 6.0 },
+      { "name": "5 star", "count": 10.6 }
     ]
   },
   {
-    "image": "https://www.google.com/s2/favicons?domain=grammarly.com&sz=128",
-    "title": "Grammarly",
-    "companyName": "Grammarly Inc.",
-    "id": 10,
-    "description": "AI-powered writing assistant that helps you communicate clearly. Fix grammar, spelling, punctuation, and improve your writing style.",
-    "size": 58,
-    "reviews": 28600,
-    "ratingAvg": 4.6,
-    "downloads": "1.1M",
-    "ratings": [
-      { "name": "1 star", "count": 380 },
-      { "name": "2 star", "count": 540 },
-      { "name": "3 star", "count": 2100 },
-      { "name": "4 star", "count": 7200 },
-      { "name": "5 star", "count": 18380 }
-    ]
-  },
-  {
-    "image": "https://www.google.com/s2/favicons?domain=trello.com&sz=128",
-    "title": "Trello",
-    "companyName": "Atlassian Corporation",
-    "id": 11,
-    "description": "Visual project management with boards, lists, and cards. Collaborate with your team and track work progress in a flexible way.",
-    "size": 47,
-    "reviews": 16300,
-    "ratingAvg": 4.4,
-    "downloads": "680K",
-    "ratings": [
-      { "name": "1 star", "count": 290 },
-      { "name": "2 star", "count": 470 },
-      { "name": "3 star", "count": 1900 },
-      { "name": "4 star", "count": 4800 },
-      { "name": "5 star", "count": 8840 }
-    ]
-  },
-  {
-    "image": "https://www.google.com/s2/favicons?domain=evernote.com&sz=128",
-    "title": "Evernote",
-    "companyName": "Evernote Corporation",
-    "id": 12,
-    "description": "Capture ideas and organize your notes. Save web pages, images, PDFs, and handwritten notes all in one searchable workspace.",
-    "size": 72,
-    "reviews": 20100,
-    "ratingAvg": 4.2,
-    "downloads": "790K",
-    "ratings": [
-      { "name": "1 star", "count": 610 },
-      { "name": "2 star", "count": 850 },
-      { "name": "3 star", "count": 3200 },
-      { "name": "4 star", "count": 6400 },
-      { "name": "5 star", "count": 9040 }
-    ]
-  },
-  {
-    "image": "https://www.google.com/s2/favicons?domain=discord.com&sz=128",
-    "title": "Discord",
-    "companyName": "Discord Inc.",
-    "id": 13,
-    "description": "Chat, voice, and video for communities and friends. Create servers, join communities, and stay connected with the people you care about.",
-    "size": 91,
-    "reviews": 38200,
-    "ratingAvg": 4.7,
-    "downloads": "2.4M",
-    "ratings": [
-      { "name": "1 star", "count": 420 },
-      { "name": "2 star", "count": 580 },
-      { "name": "3 star", "count": 2100 },
-      { "name": "4 star", "count": 9500 },
-      { "name": "5 star", "count": 25600 }
-    ]
-  },
-  {
-    "image": "https://www.google.com/s2/favicons?domain=1password.com&sz=128",
-    "title": "1Password",
-    "companyName": "AgileBits Inc.",
-    "id": 14,
-    "description": "The world's most-loved password manager. Store passwords, credit cards, and secure notes and access them from any device.",
-    "size": 66,
-    "reviews": 14700,
-    "ratingAvg": 4.8,
-    "downloads": "520K",
-    "ratings": [
-      { "name": "1 star", "count": 110 },
-      { "name": "2 star", "count": 190 },
-      { "name": "3 star", "count": 560 },
-      { "name": "4 star", "count": 3200 },
-      { "name": "5 star", "count": 10640 }
-    ]
-  },
-  {
-    "image": "https://www.google.com/s2/favicons?domain=whatsapp.com&sz=128",
-    "title": "WhatsApp",
-    "companyName": "Meta Platforms Inc.",
-    "id": 15,
-    "description": "Fast, simple, and secure messaging for free. Send texts, voice notes, photos, and make calls to anyone around the world.",
-    "size": 55,
-    "reviews": 92000,
-    "ratingAvg": 4.5,
-    "downloads": "5.1M",
-    "ratings": [
-      { "name": "1 star", "count": 1200 },
-      { "name": "2 star", "count": 1800 },
-      { "name": "3 star", "count": 6500 },
-      { "name": "4 star", "count": 22000 },
-      { "name": "5 star", "count": 60500 }
-    ]
-  },
-  {
-    "image": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
-    "title": "Instagram",
-    "companyName": "Meta Platforms Inc.",
-    "id": 16,
-    "description": "Capture and share the world's moments. Follow friends, explore trending reels, and connect with creators you love.",
-    "size": 122,
-    "reviews": 130000,
-    "ratingAvg": 4.4,
-    "downloads": "8.3M",
-    "ratings": [
-      { "name": "1 star", "count": 2800 },
-      { "name": "2 star", "count": 3600 },
-      { "name": "3 star", "count": 12000 },
-      { "name": "4 star", "count": 34000 },
-      { "name": "5 star", "count": 77600 }
-    ]
-  },
-  {
-    "image": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
-    "title": "YouTube",
-    "companyName": "Google LLC",
-    "id": 17,
-    "description": "Watch, upload, and share videos with the world. Stream music, follow creators, catch the latest news, and go live anytime.",
-    "size": 145,
-    "reviews": 210000,
-    "ratingAvg": 4.6,
-    "downloads": "12.5M",
-    "ratings": [
-      { "name": "1 star", "count": 3200 },
-      { "name": "2 star", "count": 4800 },
-      { "name": "3 star", "count": 16000 },
-      { "name": "4 star", "count": 56000 },
-      { "name": "5 star", "count": 130000 }
-    ]
-  },
-  {
-    "image": "https://www.google.com/s2/favicons?domain=gmail.com&sz=128",
+    "image": "https://img.icons8.com/color/512/gmail.png",
     "title": "Gmail",
-    "companyName": "Google LLC",
-    "id": 18,
-    "description": "Secure, smart, and easy-to-use email by Google. Enjoy intelligent reply suggestions, spam filtering, and seamless Google integration.",
-    "size": 93,
-    "reviews": 145000,
-    "ratingAvg": 4.5,
-    "downloads": "9.8M",
+    "companyName": "Google",
+    "id": 7,
+    "description": "Gmail is a secure and reliable email service by Google that offers smart inbox organization, powerful spam filtering, and seamless integration with other Google services.",
+    "size": 25,
+    "reviews": "18M",
+    "ratingAvg": 4.4,
+    "downloads": "10B",
     "ratings": [
-      { "name": "1 star", "count": 2500 },
-      { "name": "2 star", "count": 3800 },
-      { "name": "3 star", "count": 13000 },
-      { "name": "4 star", "count": 38000 },
-      { "name": "5 star", "count": 87700 }
+      { "name": "1 star", "count": 0.9 },
+      { "name": "2 star", "count": 0.7 },
+      { "name": "3 star", "count": 2.0 },
+      { "name": "4 star", "count": 6.0 },
+      { "name": "5 star", "count": 8.4 }
     ]
   },
   {
-    "image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
-    "title": "Microsoft Teams",
-    "companyName": "Microsoft Corporation",
-    "id": 19,
-    "description": "Chat, meet, call, and collaborate all in one place. Connect your team with video meetings, file sharing, and Office 365 integration.",
-    "size": 178,
-    "reviews": 67000,
-    "ratingAvg": 4.2,
-    "downloads": "4.4M",
-    "ratings": [
-      { "name": "1 star", "count": 2200 },
-      { "name": "2 star", "count": 3100 },
-      { "name": "3 star", "count": 9500 },
-      { "name": "4 star", "count": 18000 },
-      { "name": "5 star", "count": 34200 }
-    ]
-  },
-  {
-    "image": "https://www.google.com/s2/favicons?domain=dropbox.com&sz=128",
-    "title": "Dropbox",
-    "companyName": "Dropbox Inc.",
-    "id": 20,
-    "description": "Cloud storage and file sharing made simple. Sync your files across all devices and collaborate with your team securely from anywhere.",
-    "size": 84,
-    "reviews": 21000,
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888857.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon",
+    "id": 8,
+    "description": "Amazon Shopping is a leading e-commerce platform that allows users to browse, purchase, and track products easily with fast delivery, secure payments, and personalized recommendations.",
+    "size": 70,
+    "reviews": "22M",
     "ratingAvg": 4.3,
-    "downloads": "1.0M",
+    "downloads": "500M",
     "ratings": [
-      { "name": "1 star", "count": 450 },
-      { "name": "2 star", "count": 620 },
-      { "name": "3 star", "count": 2300 },
-      { "name": "4 star", "count": 6100 },
-      { "name": "5 star", "count": 11530 }
+      { "name": "1 star", "count": 1.2 },
+      { "name": "2 star", "count": 0.9 },
+      { "name": "3 star", "count": 2.5 },
+      { "name": "4 star", "count": 7.0 },
+      { "name": "5 star", "count": 10.4 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2991/2991148.png",
+    "title": "Google Maps",
+    "companyName": "Google",
+    "id": 9,
+    "description": "Google Maps is a navigation app that provides real-time directions, traffic updates, location search, and satellite views, helping users explore places efficiently.",
+    "size": 60,
+    "reviews": "28M",
+    "ratingAvg": 4.2,
+    "downloads": "10B",
+    "ratings": [
+      { "name": "1 star", "count": 1.5 },
+      { "name": "2 star", "count": 1.2 },
+      { "name": "3 star", "count": 3.0 },
+      { "name": "4 star", "count": 8.0 },
+      { "name": "5 star", "count": 14.3 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/5977/5977590.png",
+    "title": "Netflix",
+    "companyName": "Netflix",
+    "id": 10,
+    "description": "Netflix is a streaming service offering a wide range of movies, TV shows, and original content. It provides personalized recommendations and supports offline viewing.",
+    "size": 65,
+    "reviews": "21M",
+    "ratingAvg": 4.3,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 1.0 },
+      { "name": "2 star", "count": 0.8 },
+      { "name": "3 star", "count": 2.0 },
+      { "name": "4 star", "count": 6.0 },
+      { "name": "5 star", "count": 11.2 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111646.png",
+    "title": "Telegram",
+    "companyName": "Telegram",
+    "id": 11,
+    "description": "Telegram is a cloud-based messaging app known for its speed, security, and large group capabilities. It supports file sharing, bots, and customizable chat features.",
+    "size": 30,
+    "reviews": "15M",
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 0.6 },
+      { "name": "2 star", "count": 0.5 },
+      { "name": "3 star", "count": 1.5 },
+      { "name": "4 star", "count": 4.0 },
+      { "name": "5 star", "count": 8.4 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/733/733585.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc",
+    "id": 12,
+    "description": "Snapchat is a multimedia messaging app that allows users to send photos and videos that disappear after viewing, along with stories, filters, and augmented reality lenses.",
+    "size": 50,
+    "reviews": "14M",
+    "ratingAvg": 4.1,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 0.9 },
+      { "name": "2 star", "count": 0.8 },
+      { "name": "3 star", "count": 2.0 },
+      { "name": "4 star", "count": 4.0 },
+      { "name": "5 star", "count": 6.3 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/ios-filled/500/twitterx--v1.png",
+    "title": "X (Twitter)",
+    "companyName": "X Corp",
+    "id": 13,
+    "description": "X (formerly Twitter) is a social media platform where users can share short posts, follow trending topics, and engage in real-time conversations with a global audience.",
+    "size": 45,
+    "reviews": "17M",
+    "ratingAvg": 4.0,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 1.2 },
+      { "name": "2 star", "count": 1.0 },
+      { "name": "3 star", "count": 2.5 },
+      { "name": "4 star", "count": 5.0 },
+      { "name": "5 star", "count": 7.3 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/145/145808.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest",
+    "id": 14,
+    "description": "Pinterest is an idea discovery platform where users can explore, save, and organize creative ideas for fashion, home design, recipes, and more.",
+    "size": 35,
+    "reviews": "12M",
+    "ratingAvg": 4.4,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 0.5 },
+      { "name": "2 star", "count": 0.4 },
+      { "name": "3 star", "count": 1.2 },
+      { "name": "4 star", "count": 3.5 },
+      { "name": "5 star", "count": 6.4 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111589.png",
+    "title": "Reddit",
+    "companyName": "Reddit Inc",
+    "id": 15,
+    "description": "Reddit is a community-based discussion platform where users can share content, ask questions, and participate in conversations across thousands of topics.",
+    "size": 30,
+    "reviews": "10M",
+    "ratingAvg": 4.2,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 0.6 },
+      { "name": "2 star", "count": 0.5 },
+      { "name": "3 star", "count": 1.5 },
+      { "name": "4 star", "count": 3.0 },
+      { "name": "5 star", "count": 4.4 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/512/microsoft-outlook-2019.png",
+    "title": "Outlook",
+    "companyName": "Microsoft",
+    "id": 16,
+    "description": "Microsoft Outlook is an email and calendar application that helps users manage emails, schedules, and contacts efficiently with powerful productivity tools.",
+    "size": 28,
+    "reviews": "9M",
+    "ratingAvg": 4.3,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 0.4 },
+      { "name": "2 star", "count": 0.3 },
+      { "name": "3 star", "count": 1.0 },
+      { "name": "4 star", "count": 2.5 },
+      { "name": "5 star", "count": 4.8 }
     ]
   }
 ]

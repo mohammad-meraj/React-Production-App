@@ -31,7 +31,7 @@ const Apps = () => {
                     <Link to='/'><button className='btn bg-gradient-to-r from-[#6633dd] to-[#9F62F2] text-white px-6'>Go Back</button></Link>
                 </div>
             ) : (
-                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3'>
+                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3'>
                     {filteredApps.map(appData => (
                         <TrandingApp key={appData.id} appData={appData} />
                     ))}

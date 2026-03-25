@@ -4,10 +4,14 @@ import logo from './../../assets/logo.png';
 import { FaGithub } from "react-icons/fa";
 
 const Navber = () => {
-    const links=<>
-        <NavLink to='/'><li className='mr-4 text-base font-semibold'>Home</li></NavLink>
-        <NavLink to='/apps'><li className='mr-4 text-base font-semibold'>Apps</li></NavLink>
-        <NavLink to='/installation'><li className='mr-4 text-base font-semibold'>Installation</li></NavLink>
+   const navClass = ({ isActive }) =>
+        `mr-4 text-base font-semibold transition-colors duration-200 ${
+            isActive? 'text-[#632EE3] border-b-2 border-[#632EE3]': 'text-gray-600 hover:text-[#632EE3]'
+        }`;
+    const links = <>
+        <NavLink to='/' className={navClass}><li>Home</li></NavLink>
+        <NavLink to='/apps' className={navClass}><li>Apps</li></NavLink>
+        <NavLink to='/installation' className={navClass}><li>Installation</li></NavLink>
     </>
     return (
        <div className="navbar bg-base-100 shadow-sm">
@@ -22,7 +26,7 @@ const Navber = () => {
         {links}
       </ul>
     </div>
-    <NavLink to='/' className="btn btn-ghost"><img className='w-10' src={logo} alt="" /><h2 className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text text-base md:text-xl">HERO.IO</h2></NavLink>
+    <NavLink to='/' className="flex justify-center items-center font-bold pl-0 lg:pl-5"><img className='w-10' src={logo} alt="" /><h2 className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text text-base md:text-xl">HERO.IO</h2></NavLink>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

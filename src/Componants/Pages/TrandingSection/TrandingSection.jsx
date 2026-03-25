@@ -9,7 +9,7 @@ const TrandingSection = ({fetchData}) => {
                 <h2 className='text-5xl font-bold'>Trending Apps</h2>
                 <p className='text-base text-gray-500'>Explore All Trending Apps on the Market developed by us</p>
             </div>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3'>
+            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3'>
            {
             fetchData.slice(8,16).map(appData=> <TrandingApp key={appData.id} appData={appData}></TrandingApp>)
            }
