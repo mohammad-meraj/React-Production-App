@@ -3,12 +3,19 @@ import { Link, useLoaderData } from 'react-router';
 import dIcon from './../../../assets/icon-downloads.png';
 import rIcon from './../../../assets/icon-ratings.png';
 import lIcon from './../../../assets/icon-review.png';
+import { addWantedData } from '../../LocalStorage/LocalStorage';
 const AppDetails = () => {
+
+const handleInstallation=(id)=>{
+     addWantedData(id);
+}
+
+
     const Details=useLoaderData();
     const {image,title,companyName,id,description,reviews,ratingAvg,downloads,ratings,size}=Details;
     return (
-        <div>
-            <div className='flex flex-col md:flex-row bg-amber-300 px-8 py-10'>
+        <div className='bg-[#e9e7e7]'>
+            <div className='flex flex-col md:flex-row px-8 py-10'>
 
               <div className='flex-1 p-5'><img className='w-full rounded' src={image} alt="" /></div>
               <div className='flex-3 p-5'>
@@ -32,12 +39,17 @@ const AppDetails = () => {
                         <div className='space-y-3 p-4'>
                             <img src={lIcon} alt="" />
                             <h3 className='font-semibold'>Total Reviews</h3>
-                            <h1 className='text-4xl font-bold'>{reviews}</h1>
+                            <h1 className='text-4xl font-bold'>
+                                {
+                                    new Intl.NumberFormat("en-US",{
+                                        notation:"compact",
+                                    }).format(reviews)
+                                }</h1>
                         </div>
                         
                     </div>
                              <div>
-                                  <Link><button className='btn'>Install Now({size})</button></Link>
+                                  <Link><button onClick={()=> handleInstallation(id)} className='btn bg-[#0cca8e] text-white'>Install Now ({size} MB)</button></Link>
                              </div>
                 </div>
 

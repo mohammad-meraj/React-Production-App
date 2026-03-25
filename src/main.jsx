@@ -34,6 +34,10 @@ const router = createBrowserRouter([
       },
       {
         path:"/installation",
+        loader: async ()=>{
+          const res=await axios.get('/AppsData.json');
+          return res.data;
+        },
         Component: Installation,
       },
       {
