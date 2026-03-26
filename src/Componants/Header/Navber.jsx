@@ -34,7 +34,7 @@ const Navber = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a href='https://github.com/mohammad-meraj/React-Production-App' className="btn text-base md:text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"><FaGithub />Contribute</a>
+    <a href='https://github.com/mohammad-meraj' className="btn text-base md:text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"><FaGithub />Contribute</a>
   </div>
 </div>
     );

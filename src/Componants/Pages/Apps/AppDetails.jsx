@@ -35,7 +35,7 @@ Swal.fire({
     const {image,title,companyName,id,description,reviews,ratingAvg,downloads,ratings,size}=Details;
     
     return (
-        <div className='bg-[#e9e7e7]'>
+        <div className='bg-[#f1f1f1]'>
             <div className='flex flex-col md:flex-row px-8 py-10'>
 
               <div className='flex-1 h-70 lg:mt-10 p-5 bg-white rounded-4xl flex justify-center items-center'><img className=' w-40 lg:w-50 rounded' src={image} alt="" /></div>
@@ -71,6 +71,7 @@ Swal.fire({
 
             </div>
             <hr className='max-w-11/12 mx-auto border text-gray-600 my-5' />
+            <h2 className='text-2xl font-bold pl-5 md:pl-15 py-3'>Ratings</h2>
             <ResponsiveContainer width="100%" height={300}>
                   <BarChart
                     data={ratings}
